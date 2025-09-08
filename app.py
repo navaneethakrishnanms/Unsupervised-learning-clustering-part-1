@@ -39,16 +39,16 @@ if uploaded_file is not None:
 
     # Robust Scaling
     robust_scaler = RobustScaler()
-    df_scaled = robust_scaler.fit_transform(df_numeric)
+    df_scaled = robust_scaler.fit_transform(df_transformed)
 
     # PCA
     pca = PCA(n_components=0.95)
     X_pca = pca.fit_transform(df_scaled)
 
     # --- Clustering Models ---
-    kmeans = KMeans(n_clusters=2, random_state=42, n_init=20)
-    dbscan = DBSCAN(eps=2.0, min_samples=5)
-    agg = AgglomerativeClustering(n_clusters=4, linkage='ward')
+    kmeans = KMeans(n_clusters=3, random_state=42, n_init=20)
+    dbscan = DBSCAN(eps=1.5, min_samples=5)
+    agg = AgglomerativeClustering(n_clusters=3, linkage='ward')
 
     kmeans_labels = kmeans.fit_predict(X_pca)
     dbscan_labels = dbscan.fit_predict(X_pca)

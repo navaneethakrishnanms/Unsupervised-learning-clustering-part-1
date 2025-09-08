@@ -11,7 +11,7 @@ This app applies preprocessing (Yeo-Johnson transformation, scaling, PCA) and co
 ---
 
 ## 🌐 Live Demo  
-👉 [Try the App Here](https://unsupervised-learning-clustering-part-1-ebddhrtdebncfps4tof6wr.streamlit.app/)  
+👉 [Try the App Here](https://unsupervised-learning-clustering-part-1-mzgffkvzxqofsenktefxgw.streamlit.app/)  
 
 ---
 

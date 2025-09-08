@@ -21,13 +21,13 @@ This app applies preprocessing (Yeo-Johnson transformation, scaling, PCA) and co
 ![Alt Text](outputapp.png)  
 
 ### 🟢 KMeans Clustering  
-![Alt Text](kmeans.png)  
+![Alt Text](k.png)  
 
 ### 🔵 DBSCAN Clustering  
-![Alt Text](dbscan.png)  
+![Alt Text](db.png)  
 
 ### 🟣 Agglomerative Clustering  
-![Alt Text](agglo.png)  
+![Alt Text](ag.png)  
 
 ---
 
